@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author saipriya
- *
- */
-module CoreJavaProject {
-}
