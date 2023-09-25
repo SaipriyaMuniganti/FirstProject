@@ -70,11 +70,11 @@
 		public class FoodDeliveryApp {
 		    public static void main(String[] args) {
 		       
-		        Restaurant restaurant1 = new Restaurant("Restaurant 1");
+		        Restaurant restaurant1 = new Restaurant("Meridian Restaurant");
 		        restaurant1.addFoodToMenu(new Food("Biryani", 10.99));
 		        restaurant1.addFoodToMenu(new Food("Naan", 6.99));
 		        
-		        Restaurant restaurant2 = new Restaurant("Restaurant 2");
+		        Restaurant restaurant2 = new Restaurant("Wok This Way");
 		        restaurant2.addFoodToMenu(new Food("Sushi", 12.99));
 		        restaurant2.addFoodToMenu(new Food("Ramen", 8.99));
 		        
@@ -85,8 +85,8 @@
 		        restaurant2.displayMenu();
 		        
 		      
-		        customer.addToCart(restaurant1.getMenu().get(0));
-		        customer.addToCart(restaurant1.getMenu().get(1));
+		        customer.addToCart(restaurant2.getMenu().get(0));
+		        customer.addToCart(restaurant2.getMenu().get(1));
 		        
 		        
 		        customer.viewCart();
